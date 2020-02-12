@@ -27,3 +27,13 @@ def take_a_number(array, name)
   array << name
   puts "Welcome, #{name}. You are number #{line_number} in line."
 end
+
+
+def now_serving(array)
+  if array.length == 0 
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currenty serving #{array[0]}."
+    array.shift
+  end
+end 
