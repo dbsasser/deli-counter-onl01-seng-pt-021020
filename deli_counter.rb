@@ -16,7 +16,7 @@ def line(array)
       line_number += 1
     end
     
-    puts "The line is currently #{numbered_line}."
+    puts "The line is currently: #{numbered_line.join( ,)}."
   end
   
 end
