@@ -24,5 +24,6 @@ end
 
 def take_a_number(array, name)
   line_number = array.length + 1 
+  array << name
   puts "Welcome, #{name}. You are number #{line_number} in line."
 end
